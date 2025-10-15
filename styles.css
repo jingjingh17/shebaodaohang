@@ -656,6 +656,14 @@ footer {
         font-size: 1.4rem;
     }
     
+    .underline {
+        display: none;
+    }
+    
+    .header {
+        padding: 15px 0;
+    }
+    
     .header-images {
         gap: 10px;
     }
@@ -759,6 +767,14 @@ footer {
     
     .logo {
         font-size: 1.2rem;
+    }
+    
+    .underline {
+        display: none;
+    }
+    
+    .header {
+        padding: 12px 0;
     }
     
     .header-images {
