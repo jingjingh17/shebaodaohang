@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>承服解决方案</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 头部区域 -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <h1 class="logo">CFPEO</h1>
+                <span class="solutions-text">解决方案</span>
+                <div class="underline"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <div class="container">
+            <div class="cards-grid">
+                <!-- 卡片1：连续劳务个税计算器 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">连续劳务个税计算器</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="display-content">
+                            <div class="feature-list">
+                                <div class="feature-item">
+                                    <div class="feature-icon">📊</div>
+                                    <div class="feature-text">智能计算</div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">⚡</div>
+                                    <div class="feature-text">快速响应</div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">🎯</div>
+                                    <div class="feature-text">精准结果</div>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>专业的连续劳务个税计算工具，为您提供准确、快速的税务计算服务。</p>
+                            </div>
+                        </div>
+                        <button class="input-btn" onclick="navigateToCard1()">查看详情</button>
+                    </div>
+                </div>
+
+                <!-- 卡片2：个税计算器 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">个税计算器</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-container">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>含税率</th>
+                                        <th>含税率表</th>
+                                        <th>结果</th>
+                                        <th>展示区</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>能型球</td>
+                                        <td>19</td>
+                                        <td>27</td>
+                                        <td>¥560</td>
+                                    </tr>
+                                    <tr>
+                                        <td>主剪器</td>
+                                        <td>15</td>
+                                        <td>23</td>
+                                        <td>¥420</td>
+                                    </tr>
+                                    <tr>
+                                        <td>烤爱戏</td>
+                                        <td>12</td>
+                                        <td>18</td>
+                                        <td>¥320</td>
+                                    </tr>
+                                    <tr>
+                                        <td>旅行</td>
+                                        <td>8</td>
+                                        <td>14</td>
+                                        <td>¥280</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <button class="input-btn" onclick="navigateToCard2()">查看详情</button>
+                    </div>
+                </div>
+
+                <!-- 卡片3：智能社保核算器 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">智能社保核算器</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-container">
+                            <div class="chart-wrapper">
+                                <canvas id="lineChart" width="300" height="180"></canvas>
+                            </div>
+                        </div>
+                        <button class="input-btn" onclick="navigateToCard3()">查看详情</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
