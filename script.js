@@ -103,12 +103,12 @@ function navigateToCard1() {
 }
 
 function navigateToCard2() {
-    // 个税计算器
+    // 个税
     window.open('http://cfpeotaxcal.viptoyou.cn/', '_blank');
 }
 
 function navigateToCard3() {
-    // 智能社保核算器
+    // 社保
     window.open('https://cfpeoshebao.linknest.cn/', '_blank');
 }
 
