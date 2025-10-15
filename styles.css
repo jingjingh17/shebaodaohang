@@ -31,15 +31,16 @@ body {
 .logo-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .logo {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
-    color: #000;
+    color: rgb(31, 58, 112);
     margin-bottom: 5px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    white-space: nowrap;
 }
 
 .solutions-text {
@@ -99,7 +100,7 @@ body {
 }
 
 .header-logo {
-    height: 40px;
+    height: 60px;
     width: auto;
     object-fit: contain;
     transition: all 0.3s ease;
@@ -636,7 +637,7 @@ footer {
     }
     
     .header-logo {
-        height: 35px;
+        height: 45px;
     }
 }
 
@@ -648,7 +649,7 @@ footer {
     }
     
     .logo {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
     
     .header-images {
@@ -660,7 +661,7 @@ footer {
     }
     
     .header-logo {
-        height: 30px;
+        height: 40px;
     }
     
     .cards-grid {
@@ -690,6 +691,10 @@ footer {
         padding: 0 15px;
     }
     
+    .logo {
+        font-size: 1.2rem;
+    }
+    
     .header-images {
         gap: 8px;
     }
@@ -699,7 +704,7 @@ footer {
     }
     
     .header-logo {
-        height: 25px;
+        height: 35px;
     }
     
     .card {
