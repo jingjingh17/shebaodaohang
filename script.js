@@ -27,11 +27,11 @@ function initializeChart() {
     const chartHeight = height - 60; // 为标签留出空间
     
     const dataPoints = [
-        {x: margin + (chartWidth * 0), y: chartHeight + 20 - 120},   // 2017
-        {x: margin + (chartWidth * 0.25), y: chartHeight + 20 - 100}, // 2018
-        {x: margin + (chartWidth * 0.5), y: chartHeight + 20 - 80},   // 2019
-        {x: margin + (chartWidth * 0.75), y: chartHeight + 20 - 90},  // 2020
-        {x: margin + (chartWidth * 1), y: chartHeight + 20 - 70}      // 2021
+        {x: margin + (chartWidth * 0), y: chartHeight + 20 - 100},    // 8月
+        {x: margin + (chartWidth * 0.25), y: chartHeight + 20 - 100}, // 9月 (与8月相同)
+        {x: margin + (chartWidth * 0.5), y: chartHeight + 20 - 120},   // 10月 (升高)
+        {x: margin + (chartWidth * 0.75), y: chartHeight + 20 - 120},  // 11月 (与10月相同)
+        {x: margin + (chartWidth * 1), y: chartHeight + 20 - 120}      // 12月 (与10月相同)
     ];
     
     // 绘制折线图
@@ -75,9 +75,9 @@ function initializeChart() {
     ctx.font = '10px Arial';
     ctx.textAlign = 'center';
     
-    const years = ['2017', '2018', '2019', '2020', '2021'];
+    const months = ['8月', '9月', '10月', '11月', '12月'];
     dataPoints.forEach((point, index) => {
-        ctx.fillText(years[index], point.x, height - 10);
+        ctx.fillText(months[index], point.x, height - 10);
     });
 }
 
